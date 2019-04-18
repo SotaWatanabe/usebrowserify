@@ -1,0 +1,15 @@
+{
+  "name": "lgbt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify src/main.js -o dest/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "etherscan-api": "^10.0.0"
+  }
+}

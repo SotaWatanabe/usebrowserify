@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="dest/build.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/page.css">
+</head>
+<body>
+    <p>番号を入力して愛の誓いを確認しよう</p>
+    <!-- フォーム送信時にcheckText関数を実行する -->
+    <div class="form">
+        <form name="myform" onsubmit="CheckTx(this); return false;"> 
+            <div>
+                <input name="mytext" type="text" class="input1"/>
+            </div>
+            <div class="input2">
+                <input type="submit" value="送信" class="input3"/>
+            </div>
+        </form>
+    </div>       
+</body>
+</html>
